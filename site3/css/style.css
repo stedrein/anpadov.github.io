@@ -1,0 +1,121 @@
+html, body, header, #intro1, #intro2, #intro3, #intro{
+    height: 100%;  
+    background: #1a1a1a;
+}
+#intro3{
+    height: 40%;  
+    background: #1a1a1a;
+}
+#intro{ 
+    background: url(../img/1.jpg) no-repeat center center fixed;  
+    -webkit-background-size: cover;  
+    background-size: cover;
+}
+#intro1{ 
+    background: url(../img/4.jpg) no-repeat center center fixed;  
+    -webkit-background-size: cover;  
+    background-size: cover;
+}
+#intro2{ 
+    background: url(../img/6.jpg) no-repeat center center fixed;  
+    -webkit-background-size: cover;  
+    background-size: cover;
+}
+#intro3{ 
+    background: url(../img/6.jpg) no-repeat center center fixed;  
+    -webkit-background-size: cover;  
+    background-size: cover;
+}
+.top-nav-collapse{
+    background-color: #000
+}
+
+
+
+
+
+
+
+
+.cont{
+    font-size: 1.071rem;
+    letter-spacing: 1.5px; /* промежуток между букв */
+    line-height: 1.4;      /* промежуток между строк */
+    display: block;
+    margin: 0 auto 30px;
+    width: 100%;
+    max-width: 820px;
+    min-width: 80px;
+    color: #fff;
+    font-family: Roboto, Helvetica, Verdana, Roboto, sans-serif;
+    font-weight: bold;      /* толщина шрифта */
+}
+
+
+/* выравнивание текста */
+
+.leftt{
+    text-align: left;
+}
+.rightt{
+    text-align: right;
+}
+.centt{
+    text-align: center;
+}
+
+
+
+ /* ширина блока с текстом */
+
+.width4{
+    width: 400px;
+}
+.width6{
+    width: 600px;
+}
+.width8{
+    width: 800px;
+}
+.width12{
+    width: 1200px;
+}
+
+
+
+ /* прозрачность */
+
+.transs{
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+
