@@ -2,8 +2,8 @@ html, body, header, #intro1, #intro2, #intro3, #intro{
     height: 100%;  
     background: #1a1a1a;
 }
-#intro3{
-    height: 40%;  
+header{
+    height: 20%;  
     background: #1a1a1a;
 }
 #intro{ 
@@ -90,32 +90,4 @@ html, body, header, #intro1, #intro2, #intro3, #intro{
     background: transparent;
     border-color: transparent;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.map-container{
-overflow:hidden;
-padding-bottom:56.25%;
-position:relative;
-height:0;
-}
-.map-container iframe{
-left:0;
-top:0;
-height:100%;
-width:100%;
-position:absolute;
-}
-
 
