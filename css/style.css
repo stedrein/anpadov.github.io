@@ -18,15 +18,29 @@ nav{
 #info{
     height: 85%;
     background: #1a1a1a;
+
+    min-height: 85%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 85vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
 }
 
-.vertical-center {
-  min-height: 85%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 85vh; /* These two lines are counted as one :-)       */
+#examples{
+    height: 100%;
+    background: #1a1a1a;
 
-  display: flex;
-  align-items: center;
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+
+    display: flex;
+    align-items: center;
 }
+
+
+
+
+
 
    a {
     color: #fff; /* Цвет обычной ссылки */ 
