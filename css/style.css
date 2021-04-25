@@ -2,37 +2,40 @@ html, body, header, #intro1, #intro2, #intro3, #intro{
     height: 100%;  
     background: #1a1a1a;
 }
-header{
-    height: 20%;  
+
+#intro{
+    height: 10%;
     background: #1a1a1a;
-}
-#intro{ 
     background: url(../img/1.jpg) no-repeat center center fixed;  
     -webkit-background-size: cover;  
     background-size: cover;
 }
-#intro1{ 
-    background: url(../img/4.jpg) no-repeat center center fixed;  
-    -webkit-background-size: cover;  
-    background-size: cover;
-}
-#intro2{ 
-    background: url(../img/6.jpg) no-repeat center center fixed;  
-    -webkit-background-size: cover;  
-    background-size: cover;
-}
-#intro3{ 
-    background: url(../img/6.jpg) no-repeat center center fixed;  
-    -webkit-background-size: cover;  
-    background-size: cover;
-}
-.top-nav-collapse{
-    background-color: #000
+nav{
+    height: 5%;
+    background: #1a1a1a;
 }
 
+#info{
+    height: 85%;
+    background: #1a1a1a;
+}
 
+.vertical-center {
+  min-height: 85%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 85vh; /* These two lines are counted as one :-)       */
 
+  display: flex;
+  align-items: center;
+}
 
+   a {
+    color: #fff; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   a:hover {
+    color: #aaa; /* Цвет ссылки при наведении на нее курсора мыши */  
+    text-decoration: underline; /* Добавляем подчеркивание */
+   }
 
 
 
