@@ -4,12 +4,12 @@
 	font-family: 'Abhaya Libre'. bold;
 	color: white;
 }
+
 html, body{
 	overflow-x: hidden;
 	background: #1A1A1C;
     height: 100%;
 }
-
 
 .header-background {
     background: url(../img/6.jpg) rgba(0, 0, 0, 0.6); /* Прописываем путь к картинке и задаем цвет и прозрачность */
@@ -17,11 +17,7 @@ html, body{
     background-blend-mode: multiply;
     height: 30%;
 }
-.information-background {
-    background: url(../img/2.jpg) rgba(0, 0, 0, 0.6); /* Прописываем путь к картинке и задаем цвет и прозрачность */
-    background-size: cover; 
-    background-blend-mode: multiply;
-}
+
 .black-line {
 	background-color: #000000;
 	width: 100%;
@@ -31,26 +27,41 @@ html, body{
     padding: 20px 0; /* Отступ сверху и снизу */
 }
 
+.information-background {
+    background: url(../img/2.jpg) rgba(0, 0, 0, 0.6); /* Прописываем путь к картинке и задаем цвет и прозрачность */
+    background-size: cover; 
+    background-blend-mode: multiply;
+}
+
 .grid-container {
   display: grid;
   padding: 50px 50px;
 }
+
 .grid-item {
   font-size: 0.9em;
   text-align: center;
 }
 
-.item1 {grid-column: 1; grid-row: 2;}
-.item2 {grid-column: 2; grid-row: 1 / span 3;}
-.item4 {grid-column: 1; grid-row: 3;}
-.item5 {grid-column: 3; grid-row: 3;}
-.item6 {grid-column: 1; grid-row: 1;}
-.item7 {grid-column: 2; grid-row: 1;}
+@media screen and (min-width: 765px){
+	.item1 {grid-column: 1; grid-row: 2;}
+	.item2 {grid-column: 2; grid-row: 1 / span 3;}
+	.item3 {grid-column: 1; grid-row: 1;}
+	.item4 {grid-column: 1; grid-row: 3;}
+	.item6 {grid-column: 3; grid-row: 2;}
+	.item7 {grid-column: 3; grid-row: 3;}
+}
 
 @media screen and (max-width: 765px){
 	.item1 { grid-area: 1 / span 3; }
-	.item4 { grid-area: 2 / span 3; }
-	.item7 { grid-area: 4 / span 3; }
+	.item4 { grid-area: 2 / span 3; padding-bottom: 20%}
 	.item6 { grid-area: 3 / span 3; }
-	.item2 { grid-area: 5 / span 3; }
+	.item7 { grid-area: 4 / span 3; padding-bottom: 20%}
+	.item2 { grid-area: 6 / span 3; }
+}
+
+.content-background {
+    background: url(../img/2.jpg) rgba(0, 0, 0, 0.6); /* Прописываем путь к картинке и задаем цвет и прозрачность */
+    background-size: cover; 
+    background-blend-mode: multiply;
 }
