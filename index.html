@@ -7,6 +7,7 @@
   <title>Document</title>
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="jquery.js"></script>
 </head>
 <body>
 
@@ -82,19 +83,19 @@
 			</div>
 
 			<div class="content-item content3">
-				<iframe max-width="560" max-height="315" src="https://www.youtube.com/embed/rPRkgnzXoD4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe max-width="560" max-height="315" style="background: black;"></iframe>
 			</div>
 
 			<div class="content-item content4">
-				<iframe max-width="560" max-height="315" src="https://www.youtube.com/embed/rPRkgnzXoD4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe max-width="560" max-height="315" style="background: black;"></iframe>
 			</div>
 
 			<div class="content-item content5">
-				<iframe max-width="560" max-height="315" src="https://www.youtube.com/embed/rPRkgnzXoD4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe max-width="560" max-height="315" style="background: black;"></iframe>
 			</div>
 
 			<div class="content-item content6">
-				<iframe max-width="560" max-height="315" src="https://www.youtube.com/embed/rPRkgnzXoD4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div style="background-color: #000000; width: 100%;"></div>
 			</div>
 
 		</div>
@@ -134,6 +135,49 @@
 
 		</div>
 	</div>
+
+	<div class="black-line">PADDING2</div>
+
+	<div class="information-background">
+		<div class="padding-container">
+
+		<div class="padding-item padding1">
+			<form>  
+				<input id="btn1" type="button" value="Страница 1">   
+				<input id="btn2" type="button" value="Страница 2">  
+			</form>
+		</div>
+
+		<div id="content"></div>
+
+		</div>
+	</div>
+
+	<script>
+		$(document).ready(function(){
+
+			$('#btn1').click(function(){
+				$.ajax({
+					url: "page1.html",
+					cache: false,
+					success: function(html){
+						$("#content").html(html);
+					}
+				});
+			});
+
+			$('#btn2').click(function(){
+				$.ajax({
+					url: "page2.html",
+					cache: false,
+					success: function(html){
+						$("#content").html(html);
+					}
+				});
+			});
+
+		});
+    </script>
 
 </body>
 </html>
