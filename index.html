@@ -7,7 +7,7 @@
   <title>Document</title>
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
-  <script type="text/javascript" src="jquery.js"></script>
+  <script   src="https://code-jquery-com.translate.goog/jquery-3.6.0.js?_x_tr_sl=en&_x_tr_tl=ru&_x_tr_hl=ru&_x_tr_pto=nui"   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="   crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -116,45 +116,8 @@
 		</div>
 	</div>
 
-	<div class="black-line">PADDING2</div>
-
-	<div class="information-background">
-		<div class="padding-container">
-
-		<div class="padding-item padding1">
-			<form>  
-				<input id="btn1" type="button" value="Страница 1">   
-				<input id="btn2" type="button" value="Страница 2">  
-			</form>
-		</div>
-
-		<div id="content"></div>
-
-		</div>
-	</div>
-
 	<script>
 		$(document).ready(function(){
-
-			$('#btn1').click(function(){
-				$.ajax({
-					url: "page1.html",
-					cache: false,
-					success: function(html){
-						$("#content").html(html);
-					}
-				});
-			});
-
-			$('#btn2').click(function(){
-				$.ajax({
-					url: "page2.html",
-					cache: false,
-					success: function(html){
-						$("#content").html(html);
-					}
-				});
-			});
 
 			$('#btnVIDEO').click(function(){
 				$.ajax({
