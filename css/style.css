@@ -25,6 +25,19 @@ html, body{
 	font-size: 1em;
 	color: #fff; /* Цвет текста */
 	padding: 20px 0; /* Отступ сверху и снизу */
+	list-style-type: none;
+}
+
+.black-line li a{
+	text-decoration: none;
+	align-self: center;
+	font-size: 13px;
+	padding: 10px 15px;
+	transition: background .2s linear;
+}
+.black-line li a:hover{
+	background: #563D7C;
+	border-radius: 3px;
 }
 
 .information-background {
