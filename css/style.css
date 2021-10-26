@@ -31,7 +31,6 @@ html, body{
 .black-line li a{
 	text-decoration: none;
 	align-self: center;
-	font-size: 13px;
 	padding: 10px 15px;
 	transition: background .2s linear;
 }
@@ -74,7 +73,7 @@ html, body{
 }
 
 .content-background {
-	background: url(../img/3.png) rgba(0, 0, 0, 0.7); /* Прописываем путь к картинке и задаем цвет и прозрачность */
+	background: url(../img/3.png) rgba(0, 0, 0, 0.6); /* Прописываем путь к картинке и задаем цвет и прозрачность */
 	background-size: cover; 
 	background-blend-mode: multiply;
 }
