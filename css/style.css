@@ -12,7 +12,7 @@ html, body{
 }
 
 .header-background {
-    background: url(../img/1.jpg) rgba(0, 0, 0, 0.6); /* Прописываем путь к картинке и задаем цвет и прозрачность */
+    background: url(../img/1.jpg) rgba(0, 0, 0, 0.7); /* Прописываем путь к картинке и задаем цвет и прозрачность */
     background-size: cover; 
     background-blend-mode: multiply;
     height: 30%;
@@ -41,7 +41,7 @@ html, body{
 }
 
 .information-background {
-	background: url(../img/2.jpg) rgba(0, 0, 0, 0.7); /* Прописываем путь к картинке и задаем цвет и прозрачность */
+	background: url(../img/2.jpg) rgba(0, 0, 0, 0.8); /* Прописываем путь к картинке и задаем цвет и прозрачность */
 	background-size: cover; 
 	background-blend-mode: multiply;
 }
@@ -74,7 +74,7 @@ html, body{
 }
 
 .content-background {
-	background: url(../img/3.png) rgba(0, 0, 0, 0.3); /* Прописываем путь к картинке и задаем цвет и прозрачность */
+	background: url(../img/3.png) rgba(0, 0, 0, 0.7); /* Прописываем путь к картинке и задаем цвет и прозрачность */
 	background-size: cover; 
 	background-blend-mode: multiply;
 }
