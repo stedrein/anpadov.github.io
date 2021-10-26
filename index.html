@@ -13,16 +13,22 @@
 
 	<div class="header-background"></div>
 
+
+
+
+
 	<div class="black-line">MAIN</div>
 
+
+
+
+
+
 	<div class="information-background">
-
 		<div class="grid-container">
-
 			<div class="grid-item item1">
 				<img src="img/avatar.png" width="35%" style="border-radius: 50%;">
 			</div>
-
 			<div class="grid-item item2">
 				<p>Начальным этапом возведения<br>
 				зданий и сооружений в Санкт-<br>
@@ -43,7 +49,6 @@
 				финансовые затраты при последующей <br>
 				эксплуатации возведенного объекта.</p>
 			</div>
-
 			<div class="grid-item item4">
 				<h3>Анатолий Падов</h3>
 				<p>Управление и продажи <br>
@@ -52,11 +57,9 @@
 				Санкт-Петербург, Россия <br>
 				Контактная информация</p>
 			</div>
-
 			<div class="grid-item item6">
 				<img src="img/rebootlogo.png" width="35%" style="border-radius: 50%;">
 			</div>
-
 			<div class="grid-item item7">
 				<p>Wexon - автоматизация <br>
 				 производства <br>
@@ -64,55 +67,43 @@
 				 Университет им. адмирала <br>
 				Г.И. Невельского (МГУ)</p>
 			</div>
-
 		</div>
-
 	</div>
 
+
+
+
+
 	<div class="black-line" style="display: flex; flex-direction: row; justify-content: space-around; align-items: center;">
-		<p>CONTENT</p>
 		<li><a href="#" id="btnVIDEO" type="button">VIDEO</a></li>
 		<p>CONTENT</p>
 	</div>
 
-	<div class="content-background" id="video">
 
-	</div>
+
+
+
+	<div class="content-background" id="video"></div>
+
+
+
+
+
 
 	<div class="black-line">PADDING</div>
-
 	<div class="information-background">
 		<div class="padding-container">
-
-			<div class="padding-item padding1">
-				<p>
-					ООО «КОМПАНИЯ»
-				</p>
-			</div>
-
-			<div class="padding-item padding2">
-				<p>
-					mail@company.ru
-				</p>
-			</div>
-
-			<div class="padding-item padding3">
-				<p>
-					менеджер: <br>
-					+7 (999) 999-99-99 <br>
-					специалист: <br>
-					+7 (999) 999-99-99 <br>
-				</p>
-			</div>
-
-			<div class="padding-item padding4">
-				<p>
-					Город, Улица, Дом.
-				</p>
-			</div>
-
+			<div class="padding-item padding1"><p>ООО «КОМПАНИЯ»</p></div>
+			<div class="padding-item padding2"><p>mail@company.ru</p></div>
+			<div class="padding-item padding3"><p> менеджер: <br> +7 (999) 999-99-99 <br> специалист: <br> +7 (999) 999-99-99 <br> </p></div>
+			<div class="padding-item padding4"><p>Город, Улица, Дом.</p></div>
 		</div>
 	</div>
+
+
+
+
+
 
 	<script>
 		$(document).ready(function(){
@@ -122,13 +113,17 @@
 					url: "video.html",
 					cache: false,
 					success: function(html){
-						$("#video").html(html);
+						$("#video").animate({opacity: 'toggle'}, 'slow').html(html);
 					}
 				});
 			});
 
 		});
     </script>
+
+
+
+
 
 </body>
 </html>
