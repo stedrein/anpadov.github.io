@@ -15,7 +15,7 @@ html, body{
     background: url(../img/1.jpg) rgba(0, 0, 0, 0.7); /* Прописываем путь к картинке и задаем цвет и прозрачность */
     background-size: cover; 
     background-blend-mode: multiply;
-    height: 25%;
+    height: 20%;
 }
 
 .black-line {
