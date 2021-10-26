@@ -68,6 +68,7 @@ html, body{
 
 .content-container {
   display: grid;
+  padding: 50px 50px;
 }
 
 .content-item {
@@ -76,12 +77,12 @@ html, body{
 }
 
 @media screen and (min-width: 992px){
-	.content1 {grid-column: 1; grid-row: 1; padding-top: 50px; padding-bottom: 15px;}
+	.content1 {grid-column: 1; grid-row: 1; padding-bottom: 15px;}
 	.content2 {grid-column: 2; grid-row: 1;}
 	.content3 {grid-column: 3; grid-row: 1;}
 	.content4 {grid-column: 1; grid-row: 2;}
 	.content5 {grid-column: 2; grid-row: 2;}
-	.content6 {grid-column: 3; grid-row: 2; padding-bottom: 50px;}
+	.content6 {grid-column: 3; grid-row: 2;}
 }
 
 @media screen and (max-width: 991px){
