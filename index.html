@@ -75,15 +75,15 @@
 
 
 	<div class="black-line" style="display: flex; flex-direction: row; justify-content: space-around; align-items: center;">
-		<li><a href="#" id="btnVIDEO" type="button">VIDEO</a></li>
-		<p>CONTENT</p>
+		<li><a href="#" id="btnVIDEOS" type="button">VIDEOS</a></li>
+		<li><a href="#" id="btnDRAWINGS" type="button">DRAWINGS</a></li>
 	</div>
 
 
 
 
 
-	<div class="content-background" id="video"></div>
+	<div class="content-background" id="content"></div>
 
 
 
@@ -108,12 +108,22 @@
 	<script>
 		$(document).ready(function(){
 
-			$('#btnVIDEO').click(function(){
+			$('#btnVIDEOS').click(function(){
 				$.ajax({
 					url: "video.html",
 					cache: false,
 					success: function(html){
-						$("#video").html(html);
+						$("#content").html(html);
+					}
+				});
+			});
+
+			$('#btnDRAWINGS').click(function(){
+				$.ajax({
+					url: "drawings.html",
+					cache: false,
+					success: function(html){
+						$("#content").html(html);
 					}
 				});
 			});
