@@ -108,20 +108,12 @@
 	<script>
 		$(document).ready(function(){
 
-			$.ajax({
-				url: "video.html",
-				cache: false,
-				success: function(html){
-					$("#video").html(html);
-				}
-			});
-
 			$('#btnVIDEO').click(function(){
 				$.ajax({
 					url: "video.html",
 					cache: false,
 					success: function(html){
-						$("#video").animate({opacity: 'toggle'}, 'slow').html(html);
+						$("#video").fadeIn('slow').html(html);
 					}
 				});
 			});
