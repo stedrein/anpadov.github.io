@@ -30,7 +30,6 @@ html, body{
 	text-align: center; /* Текст по центру */
 	font-size: 14px;
 	color: #fff; /* Цвет текста */
-	padding: 20px 0; /* Отступ сверху и снизу */
 	list-style-type: none;
 }
 
@@ -40,6 +39,7 @@ html, body{
 	padding: 10px 15px;
 	transition: background .2s linear;
 }
+
 .black-line li a:hover{
 	background: #563D7C;
 	border-radius: 3px;
