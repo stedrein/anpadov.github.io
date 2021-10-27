@@ -1,7 +1,13 @@
+
+@font-face{
+	font-family: "Abhaya-Libre";
+	src: url("../fonts/AbhayaLibre-Bold.ttf") format("ttf")
+}
+
 *{
 	padding: 0;
 	margin: 0;
-	font-family: 'Abhaya Libre'. bold;
+	font-family: 'Abhaya Libre';
 	color: white;
 }
 
@@ -87,6 +93,7 @@ html, body{
   font-size: 0.9em;
   text-align: center;
 }
+
 
 @media screen and (min-width: 992px){
 	.content1 {grid-column: 1; grid-row: 1; padding-bottom: 15px;}
