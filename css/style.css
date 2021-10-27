@@ -30,6 +30,7 @@ html, body{
 	text-align: center; /* Текст по центру */
 	font-size: 14px;
 	color: #fff; /* Цвет текста */
+	padding: 20px 0; /* Отступ сверху и снизу */
 	list-style-type: none;
 }
 
