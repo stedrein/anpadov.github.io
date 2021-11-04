@@ -827,7 +827,18 @@ html, body, header, #intro1, #intro{
 
 
 
-<!--#include virtual="txt/footer.txt"-->
+
+<div class="col-md-12 mt-5 text-center mb-5">
+	<a name="bottom"></a>
+  <a class="btn btn-black waves-effect waves-light" href="mailto:mail@evolutioncompany.ru" role="button"><i class="fas fa-envelope"></i></a>
+  <a class="btn btn-black waves-effect waves-light" href="tel:+78126018807" role="button"><i class="fas fa-phone"></i></a>
+  <a class="btn btn-black waves-effect waves-light" href="https://vk.com/evolutioncompanyru" role="button"><i class="fab fa-vk tcwhite"></i></a>
+  <a class="btn btn-black waves-effect waves-light" href="https://twitter.com/evolutioncomru" role="button"><i class="fab fa-twitter tcwhite"></i></a>
+  <a class="btn btn-black waves-effect waves-light" href="https://youtube.com/user/piter20033" role="button"><i class="fab fa-youtube tcwhite"></i></a>
+  <a class="btn btn-black waves-effect waves-light" href="https://facebook.com/evolutioncompanyru" role="button"><i class="fab fa-facebook tcwhite"></i></a>
+  <a class="btn btn-black waves-effect waves-light" href="https://instagram.com/evolutioncompanyru" role="button"><i class="fab fa-instagram tcwhite"></i></a>
+</div>
+
 
 
 
