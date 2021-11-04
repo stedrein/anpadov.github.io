@@ -53,7 +53,7 @@ html, body, header, #intro{
     	<div class="collapse navbar-collapse" id="basicExampleNav"> 
     		<ul class="navbar-nav mr-auto smooth-scroll"> 
     			<li class="nav-item"> 
-    				<a href="index.shtml" class="nav-link waves-effect waves-light">Главная</a> 
+    				<a href="../index.html" class="nav-link waves-effect waves-light">Вернуться</a> 
     			</li>
     			<li class="nav-item">
     				<a href="#intro" class="nav-link btnn waves-effect waves-light" data-clipboard-text="+78126018807">+78126018807</a>
