@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Эволюция</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+
+
+</head>
+<body>
+<header>
+
+
+
+
+
+<style type="text/css">
+
+
+
+
+
+html, body, header, #intro1, #intro{
+    height: 100%;  
+    background: #1a1a1a;
+}
+
+#intro{ 
+    background: url(img/6.jpg) no-repeat center center fixed;  
+    -webkit-background-size: cover;  
+    background-size: cover;
+}
+#intro1{ 
+    background: url(img/6.jpg) no-repeat center center fixed;  
+    -webkit-background-size: ;  
+    background-size: cover;
+}
+
+
+.top-nav-collapse{
+    background-color: #000
+}
+
+
+
+
+
+
+.cont{
+    letter-spacing: 1.5px; /* промежуток между букв */
+    line-height: 1.4;      /* промежуток между строк */
+    display: block;
+    margin: 0 auto 30px;
+    width: 100%;
+    max-width: 820px;
+    min-width: 80px;
+    font-family: Roboto, Helvetica, Verdana, Roboto, sans-serif;
+
+}
+
+
+
+/* толщина шрифта */
+.fw300{
+    font-weight: 300;
+}
+.fwbold{
+  font-weight: bold;
+}
+
+
+
+
+
+/* размер текста */
+.fs35vmin{
+  font-size: 3.5vmin !important;
+}
+.fs1071rem{
+  font-size: 1.071rem;
+}
+ /* адаптация размеров текста */
+@media screen and (min-width: 1200px) {
+  div.example {
+    font-size:1vw
+  }
+}
+
+@media screen and (max-width: 992px) {
+  div.example {
+    font-size:2vw
+  }
+}
+
+@media screen and (max-width: 662px) {
+  div.example {
+    font-size:3.5vmin
+  }
+}
+
+@media screen and (max-width: 576px) {
+  div.example {
+    font-size:3.5vmin
+  }
+}
+
+@media screen and (max-width: 384px) {
+  div.example {
+    font-size:3.5vmin
+  }
+}
+
+
+
+
+
+
+
+/* выравнивание текста */
+.leftt{
+    text-align: left;
+}
+.rightt{
+    text-align: right;
+}
+.centt{
+    text-align: center;
+}
+.justt{
+    text-align: justify;
+}
+
+
+
+ /* ширина блока с текстом */
+.width4{
+    width: 400px;
+}
+.width6{
+    width: 600px;
+}
+.width8{
+    width: 800px;
+}
+.width12{
+    width: 1200px;
+}
+
+
+
+/* цвет фона */
+/* прозрачный фон*/
+.transs{
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+/* черный фон*/
+.bblack{
+    background-color: #000000;
+}
+/* серый фон*/
+.bgray{
+  background-color: #1a1a1a;
+}
+
+
+
+
+/* цвет текста */
+/* серый текст */
+.tcgray{
+    color: #747373;
+}
+/* белый текст */
+.tcwhite{
+  color: #fff;
+}
+
+
+
+
+
+</style>
+
+<!--#include virtual="txt/navigation.txt"-->
+
+<div class="modal fade" id="exampleModalReg" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true"> 
+    <div class="modal-dialog modal-sm "role="document">
+
+
+
+
+        <div class="modal-content"> 
+          <div class =" modal-header"> 
+            <h5 class="modal-title "id ="exampleModallabel">Подать Заявку</h5> 
+            <button class="close" type="button" data-dismiss="modal" aria-label="Close"> 
+              <span aria-hidden="true">&times;</span> 
+            </button> 
+          </div> 
+          <div class="modal-body"> 
+            <div class="container-fluid">
+              <form action="mail.php" method="POST">
+                <div class="form-row">
+                  <div class="col"> 
+                    <div class="form-froup"> 
+                      <label for="exampleInputName">Имя</label> 
+                      <input type="name" class="form-control " id=" examp leInputName" name="user_name" aria-describdby="nameHelp" placeholder="Имя" required> 
+                      <small id="nameHelp" class="form-text text-muted">Введите ваше имя</small> 
+                    </div>
+                  </div>
+              <div class="w-100"></div> <!-- разрыв -->
+                    <div class="col">
+                    <div class="form-froup"> 
+                      <label for="exampleInputEmail">Почта</label> 
+                      <input type="email" class="form-control " id=" examp leInputEmail" name="user_email" aria-describdby="emailHelp" placeholder="Почта" required> 
+                      <small id="emailHelp" class="form-text text-muted">Введите свою почту</small> 
+                    </div>
+                  </div>
+              <div class="w-100"></div> <!-- разрыв -->
+                    <div class="col"> 
+                    <div class="form-froup"> 
+                      <label for="exampleInputPhone">Телефон</label> 
+                      <input type="phone" class="form-control " id=" examp leInputPhone" name="user_phone" aria-describdby="phoneHelp" placeholder="Телефон" required> 
+                      <small id="phoneHelp" class="form-text text-muted">Введите свой телефон</small> 
+                    </div>
+                  </div>
+                </div> 
+                <button type="submit" class="btn btn-primary">Отправить</button> 
+              </form>
+            </div> 
+          </div> 
+        </div>
+
+
+
+    </div> 
+</div>
+
+
+
+    <div id="intro" class="view"> 
+        <div class="mask rgba-black-strong"> 
+            <div class="container-fluid d-flex align-items-center justify-content-center h-100"> 
+                <div class="row d-flex justify-content-center text-center"> 
+                    <div >
+                      <div class="container example fw300 cont">
+                        <p class="white-text my-4">КОМПАНИЯ «ЭВОЛЮЦИЯ» ВЫПОЛНЯЕТ ВСЕ ВИДЫ РАБОТ – ОТ КОСМЕТИЧЕСКОГО РЕМОНТА ДО РЕАЛИЗАЦИИ ОРИГИНАЛЬНЫХ ДИЗАЙН-ПРОЕКТОВ В САНКТ-ПЕТЕРБУРГЕ И ЛЕНИНГРАДСКОЙ ОБЛАСТИ. ЗАДАЧА НАШИХ КЛИЕНТОВ – ПЕРЕДАТЬ СВОЕ ВИДЕНИЕ ИНТЕРЬЕРА, ВСЕ ОСТАЛЬНОЕ СДЕЛАЮТ МАСТЕРА ФИРМЫ, ОПИРАЯСЬ НА ЗАРАНЕЕ СОГЛАСОВАННУЮ СМЕТУ И СРОКИ ДОГОВОРА.
+                        </p>
+                        </div>
+                    </div> 
+                </div> 
+            </div> 
+        </div>
+    </div>
+    </header>    
+
+ 
+
+
+
+
+
+
+
+
+
+<div class="container-fluid p-4 bblack"> 
+
+
+
+            <div class="row text-center justify-content-center example fw300 cont tcwhite" >
+              <p>НАШИ УСЛУГИ</p>
+            </div>
+
+
+
+ 
+            <div class="row text-center justify-content-center" > 
+
+
+              <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2  transs ">
+                <i class="fas fa-coffee fa-4x grey-text"></i>
+                <div class="example cont tcwhite my-2">
+
+                  <p class="text-nowrap fw300 mb-0">КОММЕРЧЕСКАЯ</p>
+                  <p class="text-nowrap fw300">НЕДВИЖИМОСТЬ</p>
+
+                </div>
+              </div> 
+              <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2  transs">
+                <i class="fas fa-key fa-4x grey-text"></i>
+                <div class="example cont tcwhite my-2">
+
+                  <p class="text-nowrap fw300 mb-0">ПОМОЩЬ В</p>
+                  <p class="text-nowrap fw300">ПРИЕМКЕ КВАРТИРЫ</p>
+                
+
+                </div>
+              </div> 
+              <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2  transs">
+                <i class="fas fa-ruler fa-4x grey-text"></i>
+                <div class="example cont tcwhite my-2">
+
+                  <p class="text-nowrap fw300 mb-0">СОГЛАСОВАНИЕ</p>
+                  <p class="text-nowrap fw300">ПЕРЕПЛАНИРОВКИ</p>
+
+
+                </div>
+              </div> 
+              <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2  transs">
+                <i class="fas fa-building fa-4x grey-text"></i>
+                <div class="example cont tcwhite">
+                  <p class="fw300 my-2">  </p>
+
+
+                  <p class="text-nowrap fw300 mb-0">РЕМОНТ</p>
+                  <p class="text-nowrap fw300 mb-0">ПО СЕРИЯМ</p>
+                  <p class="text-nowrap fw300">ДОМОВ</p> 
+
+                </div>
+              </div>
+
+            </div>
+
+</div>
+
+
+
+
+
+
+
+<div id="intro1" class="view"> 
+  <div class="mask rgba-black-strong"> 
+    <div class="d-flex align-items-center justify-content-center h-100"> 
+      <div class="text-center"> 
+        <div class="row justify-content-center" > 
+
+
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-1 mx-4  transs ">
+                <h1 class="font-weight-bold white-text">10+</h1>
+                <div class="example cont tcwhite my-2">
+
+                  <p class="fw300">Более 10 лет на рынке ремонтных и отделочных работ</p>
+
+                </div>
+              </div>
+
+
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-1 mx-4  transs ">
+                <h1 class="font-weight-bold white-text">5+</h1>
+                <div class="example cont tcwhite my-2">
+
+                  <p class="fw300">Минимальный профессиональный стаж наших мастеров</p>
+
+                </div>
+              </div>
+
+
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-1 mx-4  transs ">
+                <h1 class="font-weight-bold white-text">1400+</h1>
+                <div class="example cont tcwhite my-2">
+
+                  <p class="fw300">Выполненных объектов</p>
+
+                </div>
+              </div>
+
+
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-1 mx-4  transs ">
+                <h1 class="font-weight-bold white-text">30%</h1>
+                <div class="example cont tcwhite my-2">
+
+                  <p class="fw300">Клиентов приходят к нам после рекомендации друзей</p>
+
+                </div>
+              </div>
+
+
+
+        </div>
+      </div> 
+    </div> 
+  </div>
+</div>  
+
+
+
+<div class="container-fluid bblack"> 
+    <div class="container"> 
+      <div class="row text-center justify-content-center" > 
+        <div class="container example cont centt fwbold tcwhite mt-5">
+          <p>ЭВОЛЮЦИЯ - ЭТО КОММЕРЧЕСКАЯ КОМПАНИЯ ПО УСТАНОВКЕ СИСТЕМ ВИДЕОНАБЛЮДЕНИЯ С САМЫМ ВЫСОКИМ РЕЙТИНГОМ.</p>
+          <p>Когда дело доходит до предоставления лучших услуг систем видеонаблюдения для корпоративного сектора, никто не знает ландшафта лучше, чем Эволюция. Мы работали с предприятиями национального уровня, местными предприятиями и всем, что между ними.</p>
+        </div>
+
+      </div>
+   </div>
+</div>
+
+
+
+
+
+<div class="container-fluid"> 
+  <div class="container p-5">
+    <div class="container-fluid cont mt-5" >
+      <div class="wp-google-list">
+        <div class="wp-google-place">
+          <div class="wp-google-left"> 
+            
+              
+          </div>
+          <div class="wp-google-right">
+            <div class="wp-google-name"> 
+              <a href="https://maps.google.com/?cid=1998614651098982989" target="_blank" rel="nofollow noopener">
+                <span>
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Эволюция</font>
+                  </font>
+                </span>
+              </a>
+            </div>
+            <div> 
+              <span class="wp-google-rating">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">4.8</font>
+                </font>
+              </span> 
+              <span class="wp-google-stars">
+                <span class="wp-stars">
+                  <span class="wp-star">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792">
+                      <path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b">
+                      </path>
+                    </svg>
+                  </span>
+                  <span class="wp-star">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b">
+                    </path>
+                  </svg>
+                </span>
+                <span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792">
+                  <path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b">
+                  </path>
+                </svg>
+              </span>
+              <span class="wp-star">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792">
+                <path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b">
+                </path>
+              </svg>
+            </span>
+            <span class="wp-star">
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792">
+              <path d="M1250 957l257-250-356-52-66-10-30-60-159-322v963l59 31 318 168-60-355-12-66zm452-262l-363 354 86 500q5 33-6 51.5t-34 18.5q-17 0-40-12l-449-236-449 236q-23 12-40 12-23 0-34-18.5t-6-51.5l86-500-364-354q-32-32-23-59.5t54-34.5l502-73 225-455q20-41 49-41 28 0 49 41l225 455 502 73q45 7 54 34.5t-24 59.5z" fill="#e7711b">
+              </path>
+            </svg>
+            </span>
+          </span>
+        </span>
+      </div>
+      <div class="wp-google-powered"> 
+        <img src="https://getsafeandsound.com/wp-content/plugins/widget-google-reviews/static/img/powered_by_google_on_white.png" alt="при поддержке Google" width="144" height="18" title="при поддержке Google" data-lazy-src="https://getsafeandsound.com/wp-content/plugins/widget-google-reviews/static/img/powered_by_google_on_white.png" class="lazyloaded" data-was-processed="true">
+        <noscript>
+          <img src="https://getsafeandsound.com/wp-content/plugins/widget-google-reviews/static/img/powered_by_google_on_white.png" alt="powered by Google" width="144" height="18" title="powered by Google">
+        </noscript>
+      </div>
+    </div>
+  </div>
+  <div class="wp-google-content-inner">
+      <!-- поставить пробелы -->
+  <div class="wp-google-reviews">
+    <div class="wp-google-review">
+      <div class="wp-google-left"> 
+        <img src="https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg" data-src="https://lh6.ggpht.com/-mAchrqWTsVs/AAAAAAAAAAI/AAAAAAAAAAA/ZwVh-CfGAys/s50-c0x00000000-cc-rp-mo/photo.jpg" class="rplg-review-avatar rplg-blazy" alt="Джоан Шумахер" width="50" height="50" title="Джоан Шумахер" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';">
+      </div>
+      <div class="wp-google-right"> 
+        <a href="https://www.google.com/maps/contrib/104043667445494995542/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">Джоан Шумахер</font>
+          </font>
+        </a>
+        <div class="wp-google-time" data-time="1597776456">
+          <font style="vertical-align: inherit;">
+            <font style="vertical-align: inherit;">18:47 18 августа 20</font>
+        </font>
+      </div>
+      <div class="wp-google-feedback"> 
+        <span class="wp-google-stars">
+          <span class="wp-stars">
+            <span class="wp-star">
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792">
+                <path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path>
+              </svg>
+            </span>
+            <span class="wp-star">
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792">
+                <path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b">
+                </path>
+              </svg>
+            </span>
+            <span class="wp-star">
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792">
+                <path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b">
+                </path>
+              </svg>
+            </span>
+            <span class="wp-star">
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b">
+              </path>
+            </svg>
+          </span>
+          <span class="wp-star">
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792">
+              <path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b">
+              </path>
+            </svg>
+          </span>
+        </span>
+      </span>
+
+      <div class="container example fwbold tcwhite cont">
+      <span class="wp-google-text">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Давно планировал установить себе на дачный участок камеры. </font>
+          <font style="vertical-align: inherit;">Нашел эту компанию, решил заказать у них, так как цена была меньше чем у других компаний</font>
+          <font style="vertical-align: inherit;">и качество самих камер всем устраивало.</font>
+          <font style="vertical-align: inherit;">Мастера приехали вовремя и быстро все установили. Нареканий никаких не вызывали.</font>
+          <font style="vertical-align: inherit;">Работой доволен, качеством самих камер тоже. </font>
+          <font style="vertical-align: inherit;">нужно оставить сообщение, и они сразу же свяжутся с вами. </font>
+          <font style="vertical-align: inherit;">Они даже втиснули мою установку, потому что осознали важность этого для меня. </font>
+          <font style="vertical-align: inherit;">Я очень рекомендую эту компанию.</font>
+        </font>
+      </div>
+
+        </span>
+        <span class="wp-more-toggle">
+          <font style="vertical-align: inherit;">
+          </font>
+        </span>
+      </span>
+    </div>
+  </div>
+</div>
+<div class="wp-google-review"><div class="wp-google-left"> <img src="https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg" data-src="https://lh5.ggpht.com/-IxWNfa3fXRk/AAAAAAAAAAI/AAAAAAAAAAA/lkYdyuypxwY/s50-c0x00000000-cc-rp-mo/photo.jpg" class="rplg-review-avatar rplg-blazy" alt="Игги Коган" width="50" height="50" title="Игги Коган" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';"></div>
+        <div class="wp-google-right"> <a href="https://www.google.com/maps/contrib/114446725196475077131/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Игги Коган</font></font></a><div class="wp-google-time" data-time="1597722090"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">03:41 18 20 августа</font></font></div><div class="wp-google-feedback"> <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span></span></span> 
+      <span class="wp-google-text">
+
+      <div class="container example fwbold tcwhite cont">
+      <span class="wp-google-text">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Давно планировал установить себе на дачный участок камеры. </font>
+          <font style="vertical-align: inherit;">Нашел эту компанию, решил заказать у них, так как цена была меньше чем у других компаний</font>
+          <font style="vertical-align: inherit;">и качество самих камер всем устраивало.</font>
+          <font style="vertical-align: inherit;">Мастера приехали вовремя и быстро все установили. Нареканий никаких не вызывали.</font>
+          <font style="vertical-align: inherit;">Работой доволен, качеством самих камер тоже. </font>
+          <font style="vertical-align: inherit;">нужно оставить сообщение, и они сразу же свяжутся с вами. </font>
+          <font style="vertical-align: inherit;">Они даже втиснули мою установку, потому что осознали важность этого для меня. </font>
+          <font style="vertical-align: inherit;">Я очень рекомендую эту компанию.</font>
+        </font>
+      </div>
+      
+        </span>
+        <span class="wp-more-toggle"><font style="vertical-align: inherit;"></font></span></span></div></div></div><div class="wp-google-review"><div class="wp-google-left"> <img src="https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg" data-src="https://lh5.ggpht.com/-uH9cmFt4_sA/AAAAAAAAAAI/AAAAAAAAAAA/AEYVQQiN98c/s50-c0x00000000-cc-rp-mo/photo.jpg" class="rplg-review-avatar rplg-blazy" alt="Nate H" width="50" height="50" title="Nate H" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';"></div><div class="wp-google-right"> <a href="https://www.google.com/maps/contrib/112990759305738694533/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nate H</font></font></a><div class="wp-google-time" data-time="1594956065"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">03:21 17 июл.20</font>
+        </font></div><div class="wp-google-feedback"> <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span></span></span> 
+        <span class="wp-google-text">
+
+      <div class="container example fwbold tcwhite cont">
+      <span class="wp-google-text">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Давно планировал установить себе на дачный участок камеры. </font>
+          <font style="vertical-align: inherit;">Нашел эту компанию, решил заказать у них, так как цена была меньше чем у других компаний</font>
+          <font style="vertical-align: inherit;">и качество самих камер всем устраивало.</font>
+          <font style="vertical-align: inherit;">Мастера приехали вовремя и быстро все установили. Нареканий никаких не вызывали.</font>
+          <font style="vertical-align: inherit;">Работой доволен, качеством самих камер тоже. </font>
+          <font style="vertical-align: inherit;">нужно оставить сообщение, и они сразу же свяжутся с вами. </font>
+          <font style="vertical-align: inherit;">Они даже втиснули мою установку, потому что осознали важность этого для меня. </font>
+          <font style="vertical-align: inherit;">Я очень рекомендую эту компанию.</font>
+        </font>
+      </div>
+      
+        </span>
+          <span class="wp-more-toggle"><font style="vertical-align: inherit;"></font></span></span></div></div></div><div class="wp-google-review"><div class="wp-google-left"> <img src="https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg" data-src="https://lh4.ggpht.com/-TjoaC9zsXnY/AAAAAAAAAAI/AAAAAAAAAAA/yiSytxjpnzo/s50-c0x00000000-cc-rp-mo-ba2/photo.jpg" class="rplg-review-avatar rplg-blazy" alt="КРИСТОФЕР ЭЛДЕН ХИЛОТИН" width="50" height="50" title="КРИСТОФЕР ЭЛДЕН ХИЛОТИН" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';"></div><div class="wp-google-right"> <a href="https://www.google.com/maps/contrib/118221417025040763880/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">КРИСТОФЕР ЭЛДЕН ХИЛОТИН</font></font></a><div class="wp-google-time" data-time="1532636366">
+          <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">20:19 26 18 июл</font></font></div><div class="wp-google-feedback"> <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span></span></span> 
+      <span class="wp-google-text">
+
+      <div class="container example fwbold tcwhite cont">
+      <span class="wp-google-text">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Давно планировал установить себе на дачный участок камеры. </font>
+          <font style="vertical-align: inherit;">Нашел эту компанию, решил заказать у них, так как цена была меньше чем у других компаний</font>
+          <font style="vertical-align: inherit;">и качество самих камер всем устраивало.</font>
+          <font style="vertical-align: inherit;">Мастера приехали вовремя и быстро все установили. Нареканий никаких не вызывали.</font>
+          <font style="vertical-align: inherit;">Работой доволен, качеством самих камер тоже. </font>
+          <font style="vertical-align: inherit;">нужно оставить сообщение, и они сразу же свяжутся с вами. </font>
+          <font style="vertical-align: inherit;">Они даже втиснули мою установку, потому что осознали важность этого для меня. </font>
+          <font style="vertical-align: inherit;">Я очень рекомендую эту компанию.</font>
+        </font>
+      </div>
+      
+        </span>
+          </span></div></div></div><div class="wp-google-review"><div class="wp-google-left"> <img src="https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg" data-src="https://lh5.ggpht.com/-4fMufsHjZAg/AAAAAAAAAAI/AAAAAAAAAAA/ibZFH7IIpow/s50-c0x00000000-cc-rp-mo/photo.jpg" class="rplg-review-avatar rplg-blazy" alt="Мария Ороско" width="50" height="50" title="Мария Ороско" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';"></div><div class="wp-google-right"> <a href="https://www.google.com/maps/contrib/116991149280928730683/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Мария Ороско</font></font></a><div class="wp-google-time" data-time="1519358543"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">04:02 23 18 фев.</font></font></div><div class="wp-google-feedback"> <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span></span></span> 
+        <span class="wp-google-text">
+
+      <div class="container example fwbold tcwhite cont">
+      <span class="wp-google-text">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Давно планировал установить себе на дачный участок камеры. </font>
+          <font style="vertical-align: inherit;">Нашел эту компанию, решил заказать у них, так как цена была меньше чем у других компаний</font>
+          <font style="vertical-align: inherit;">и качество самих камер всем устраивало.</font>
+          <font style="vertical-align: inherit;">Мастера приехали вовремя и быстро все установили. Нареканий никаких не вызывали.</font>
+          <font style="vertical-align: inherit;">Работой доволен, качеством самих камер тоже. </font>
+          <font style="vertical-align: inherit;">нужно оставить сообщение, и они сразу же свяжутся с вами. </font>
+          <font style="vertical-align: inherit;">Они даже втиснули мою установку, потому что осознали важность этого для меня. </font>
+          <font style="vertical-align: inherit;">Я очень рекомендую эту компанию.</font>
+        </font>
+      </div>
+      
+        </span>
+          </span></div></div></div><div class="wp-google-review wp-google-hide"><div class="wp-google-left"> 
+            <img src="https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg" data-src="https://lh3.ggpht.com/-OcX65d_XF1E/AAAAAAAAAAI/AAAAAAAAAAA/TPHqLe7-fvc/s50-c0x00000000-cc-rp-mo/photo.jpg" class="rplg-review-avatar rplg-blazy" alt="Emily Shaughnessy" width="50" height="50" title="Emily Shaughnessy" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';"></div><div class="wp-google-right"> <a href="https://www.google.com/maps/contrib/111890412518785558673/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener">Emily Shaughnessy</a><div class="wp-google-time" data-time="1518814118">20:48 16 Feb 18</div><div class="wp-google-feedback"> <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1201 1004l306-297-422-62-189-382-189 382-422 62 306 297-73 421 378-199 377 199zm527-357q0 22-26 48l-363 354 86 500q1 7 1 20 0 50-41 50-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#ccc"></path>
+            </svg>
+          </span>
+        </span>
+      </span> 
+        <span class="wp-google-text">
+
+      <div class="container example fwbold tcwhite cont">
+      <span class="wp-google-text">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Давно планировал установить себе на дачный участок камеры. </font>
+          <font style="vertical-align: inherit;">Нашел эту компанию, решил заказать у них, так как цена была меньше чем у других компаний</font>
+          <font style="vertical-align: inherit;">и качество самих камер всем устраивало.</font>
+          <font style="vertical-align: inherit;">Мастера приехали вовремя и быстро все установили. Нареканий никаких не вызывали.</font>
+          <font style="vertical-align: inherit;">Работой доволен, качеством самих камер тоже. </font>
+          <font style="vertical-align: inherit;">нужно оставить сообщение, и они сразу же свяжутся с вами. </font>
+          <font style="vertical-align: inherit;">Они даже втиснули мою установку, потому что осознали важность этого для меня. </font>
+          <font style="vertical-align: inherit;">Я очень рекомендую эту компанию.</font>
+        </font>
+      </div>
+      
+        </span>
+      <span class="wp-more-toggle">read more</span></span></div></div></div><div class="wp-google-review wp-google-hide"><div class="wp-google-left"> <img src="https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg" data-src="https://lh5.ggpht.com/-BtPFUbtl90M/AAAAAAAAAAI/AAAAAAAAAAA/QzpAG3uQVvk/s50-c0x00000000-cc-rp-mo/photo.jpg" class="rplg-review-avatar rplg-blazy" alt="Kristopher Kent" width="50" height="50" title="Kristopher Kent" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';"></div><div class="wp-google-right"> <a href="https://www.google.com/maps/contrib/106626373550627565584/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener">Kristopher Kent</a><div class="wp-google-time" data-time="1481654465">18:41 13 Dec 16</div><div class="wp-google-feedback"> <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span></span></span> 
+        <span class="wp-google-text">
+
+      <div class="container example fwbold tcwhite cont">
+      <span class="wp-google-text">
+        <font style="vertical-align: inherit;">
+          <font style="vertical-align: inherit;">Давно планировал установить себе на дачный участок камеры. </font>
+          <font style="vertical-align: inherit;">Нашел эту компанию, решил заказать у них, так как цена была меньше чем у других компаний</font>
+          <font style="vertical-align: inherit;">и качество самих камер всем устраивало.</font>
+          <font style="vertical-align: inherit;">Мастера приехали вовремя и быстро все установили. Нареканий никаких не вызывали.</font>
+          <font style="vertical-align: inherit;">Работой доволен, качеством самих камер тоже. </font>
+          <font style="vertical-align: inherit;">нужно оставить сообщение, и они сразу же свяжутся с вами. </font>
+          <font style="vertical-align: inherit;">Они даже втиснули мою установку, потому что осознали важность этого для меня. </font>
+          <font style="vertical-align: inherit;">Я очень рекомендую эту компанию.</font>
+        </font>
+      </div>
+      
+        </span>
+        </span></div></div></div></div> <a class="wp-google-url" href="#" onclick="return rplg_next_reviews.call(this, 'google', 5);"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></a></div></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<div class="container-fluid p-4 bblack"> 
+    <div class="container " >
+
+        <div class="container-fluid"> 
+          <div class="container"> 
+            <div class="row text-center justify-content-center example fw300 cont tcwhite" >
+                    <p>ПРИМЕРЫ</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid"> 
+          <div class="container"> 
+            <div class="row text-center justify-content-center" > 
+
+
+              <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2 bgray">
+                <img src="img/7.jpg" alt="" class="w-100 my-2 pt-2">
+                <a href="#" class="btn btn-outline-success my-2 ">Открыть</a> 
+                <div class="cont fwbold tcwhite">
+                  <p class="my-2">Гатчинская городская прокуратура (системы электроснабжения, ПС, ОС, СОТ)</p>
+                </div>
+              </div> 
+              <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2 bgray">
+                <img src="img/8.jpg" alt="" class="w-100 my-2 pt-2">
+                <a href="#" class="btn btn-outline-success my-2 ">Открыть</a> 
+                <div class="cont fwbold tcwhite">
+                  <p class="my-2">Филиал ГБУ ЛО МФЦ (системы электроснабжения, СКС, ПС, ОС)</p>
+                </div>
+
+              </div> 
+              <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2 bgray">
+                <img src="img/9.jpg" alt="" class="w-100 my-2 pt-2">
+                <a href="#" class="btn btn-outline-success my-2 ">Открыть</a> 
+                <div class="cont fwbold tcwhite">
+                  <p class="my-2">Филиал ГБУ ЛО МФЦ (ПС, ОС СКС, СКУД)</p>
+                </div>
+
+              </div> 
+              <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2 bgray">
+                <img src="img/10.jpg" alt="" class="w-100 my-2 pt-2">
+                <a href="#intro" class="nav-link waves-effect waves-light btn btn-outline-success my-2 " data-toggle="modal" data-target="#exampleModal">Открыть</a>
+                <div class="cont fwbold tcwhite">
+                  <p class="my-2">Администрация пос. им. Свердлова (системы электроснабжения, СКС)</p>
+                </div>
+
+              </div> 
+
+              <div class="w-100"></div> <!-- разрыв -->
+
+              <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2 bgray">
+                <img src="img/11.jpg" alt="" class="w-100 my-2 pt-2">
+                <a href="#" class="btn btn-outline-success my-2 ">Открыть</a> 
+                <div class="cont fwbold tcwhite">
+                  <p class="my-2">Гатчинская городская прокуратура (системы электроснабжения, ПС, ОС, СОТ)</p>
+                </div>
+
+              </div> 
+              <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2 bgray">
+                <img src="img/12.jpg" alt="" class="w-100 my-2 pt-2">
+                <a href="#" class="btn btn-outline-success my-2 ">Открыть</a> 
+                <div class="cont fwbold tcwhite">
+                  <p class="my-2">Гатчинская городская прокуратура (системы электроснабжения, ПС, ОС, СОТ)</p>
+                </div>
+
+              </div> 
+              <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2 bgray">
+                <img src="img/13.jpg" alt="" class="w-100 my-2 pt-2">
+                <a href="#" class="btn btn-outline-success my-2 ">Открыть</a> 
+                <div class="cont fwbold tcwhite">
+                  <p class="my-2">Гатчинская городская прокуратура (системы электроснабжения, ПС, ОС, СОТ)</p>
+                </div>
+
+              </div> 
+              <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2 bgray">
+                <img src="img/14.jpg" alt="" class="w-100 my-2 pt-2">
+                <a href="#" class="btn btn-outline-success my-2 ">Открыть</a> 
+                <div class="cont fwbold tcwhite">
+                  <p class="my-2">Гатчинская городская прокуратура (системы электроснабжения, ПС, ОС, СОТ)</p>
+                </div>
+
+              </div> 
+
+
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+
+
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true"> 
+      <div class="modal-dialog modal-sm "role="document"> 
+        <div class="modal-content"> 
+          <div class =" modal-header"> 
+            <h5 class="modal-title "id ="exampleModallabel"> название </h5> 
+            
+          </div> 
+          <div class="modal-body"> 
+            <div class="container-fluid">
+                  <div class="container">
+                          <p>У компании имеются действующая лицензия Министерства РФ по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий на осуществление деятельности по монтажу, техническому обслуживанию и ремонту средств обеспечения пожарной безопасности зданий и сооружений, лицензия на осуществление деятельности по сохранению объектов культурного наследия (памятников истории и культуры) народов Российской Федерации.</p>
+                            </div>
+            </div> 
+          </div> 
+        </div> 
+      </div> 
+    </div>
+
+
+
+
+
+<!--#include virtual="txt/footer.txt"-->
+
+
+
+
+
+
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(67097947, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+   </script>
+   <noscript><div><img src="https://mc.yandex.ru/watch/67097947" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+   <!-- /Yandex.Metrika counter -->
+
+</body>
+</html>

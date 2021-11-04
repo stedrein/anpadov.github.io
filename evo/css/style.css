@@ -1,0 +1,134 @@
+
+.top-nav-collapse{
+    background-color: #000
+}
+
+
+
+.cont{
+    letter-spacing: 1.5px; /* промежуток между букв */
+    line-height: 1.4;      /* промежуток между строк */
+    display: block;
+    margin: 0 auto 30px;
+    width: 100%;
+    max-width: 820px;
+    min-width: 80px;
+    font-family: Roboto, Helvetica, Verdana, Roboto, sans-serif;
+
+}
+
+
+
+/* толщина шрифта */
+.fw300{
+    font-weight: 300;
+}
+.fwbold{
+	font-weight: bold;
+}
+
+
+
+
+
+/* размер текста */
+.fs35vmin{
+	font-size: 3.5vmin !important;
+}
+.fs1071rem{
+	font-size: 1.071rem;
+}
+ /* адаптация размеров текста */
+@media screen and (min-width: 1200px) {
+  div.example {
+    font-size:1vw
+  }
+}
+
+@media screen and (max-width: 992px) {
+  div.example {
+    font-size:2vw
+  }
+}
+
+@media screen and (max-width: 662px) {
+  div.example {
+    font-size:3.5vmin
+  }
+}
+
+@media screen and (max-width: 576px) {
+  div.example {
+    font-size:3.5vmin
+  }
+}
+
+@media screen and (max-width: 384px) {
+  div.example {
+    font-size:3.5vmin
+  }
+}
+
+
+
+/* выравнивание текста */
+.leftt{
+    text-align: left;
+}
+.rightt{
+    text-align: right;
+}
+.centt{
+    text-align: center;
+}
+.justt{
+    text-align: justify;
+}
+
+
+
+ /* ширина блока с текстом */
+.width4{
+    width: 400px;
+}
+.width6{
+    width: 600px;
+}
+.width8{
+    width: 800px;
+}
+.width12{
+    width: 1200px;
+}
+
+
+
+/* цвет фона */
+/* прозрачный фон*/
+.transs{
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+/* черный фон*/
+.bblack{
+    background-color: #000000;
+}
+/* серый фон*/
+.bgray{
+	background-color: #1a1a1a;
+}
+
+
+
+
+/* цвет текста */
+/* серый текст */
+.tcgray{
+    color: #747373;
+}
+/* белый текст */
+.tcwhite{
+	color: #fff;
+}
+

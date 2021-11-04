@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Эволюция</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+
+<style type="text/css">
+html, body, header, #intro{
+
+    background: #1a1a1a;
+}
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar"> 
+    <div class="container">
+
+    	<a href="#" class="navbar-brand">
+    		<img src="img/logo.png" width="40" height="40" alt="logo">
+    	</a>
+
+    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle Navigation"> 
+    		<span class="navbar-toggler-icon"></span> 
+    	</button>
+
+    	<div class="collapse navbar-collapse" id="basicExampleNav"> 
+    		<ul class="navbar-nav mr-auto smooth-scroll"> 
+    			<li class="nav-item"> 
+    				<a href="index.shtml" class="nav-link waves-effect waves-light">Главная</a> 
+    			</li>
+    		</ul>
+    	</div>
+    </div>
+</nav> 
+
+</header>
+
+<div class="container-fluid pt-5" style="max-width: 500px;">
+    
+    			<div class ="example fw300 cont white-text mt-5"> 
+    				<p>ПОДАТЬ ЗАЯВКУ</p>
+    				<hr color="white">
+    			</div>
+
+    			<form name="contact" action="mail.php" method="post">
+    					    
+    						<div class="form-row">
+    							<div class="col"> 
+    								<div class="form-froup"> 
+    									<label for="contact-name" class="white-text">Имя</label> 
+    									<input type="text" class="form-control " id="contact-name" name="contact-name" aria-describdby="nameHelp" placeholder="Имя" required> 
+    									<small id="nameHelp" class="form-text text-muted">Введите ваше имя</small> 
+    								</div>
+    							</div>
+			        <div class="w-100"></div> <!-- разрыв -->
+    						    <div class="col">
+    								<div class="form-froup"> 
+    									<label for="contact-email" class="white-text">Почта</label> 
+    									<input type="email" class="form-control " id="contact-email" name="contact-email" aria-describdby="emailHelp" placeholder="Почта" required> 
+    									<small id="emailHelp" class="form-text text-muted">Введите свою почту</small> 
+    								</div>
+    							</div>
+			        <div class="w-100"></div> <!-- разрыв -->
+    						    <div class="col"> 
+    								<div class="form-froup"> 
+    									<label for="contact-phone" class="white-text">Телефон</label> 
+    									<input type="phone" class="form-control " id="contact-phone" name="contact-phone" aria-describdby="phoneHelp" placeholder="Телефон" required> 
+    									<small id="phoneHelp" class="form-text text-muted">Введите свой телефон</small> 
+    								</div>
+    							</div>
+			        <div class="w-100"></div> <!-- разрыв -->
+    						    <div class="col"> 
+    								<div class="form-froup"> 
+    									<label for="contact-text" class="white-text">Сообщение</label> 
+    									<input type="phone" class="form-control " id="contact-text" name="contact-text" aria-describdby="textHelp" placeholder="Сообщение" required> 
+    									<small id="textHelp" class="form-text text-muted">Введите текст сообщения</small> 
+    								</div>
+    							</div>
+    						</div>
+    						<div class="contact-button">
+    						    <input type="submit" class="btn btn-primary" name="contact-button" value="Отправить">
+    						</div>
+    			</form>
+
+        </div>
+
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>
