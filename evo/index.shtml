@@ -39,7 +39,35 @@ html, body, header, #intro{
 
 </style>
 
-<!--#include virtual="txt/navigation.txt"-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar"> 
+    <div class="container">
+
+    	<a href="#" class="navbar-brand">
+    		<img src="img/logo.png" width="40" height="40" alt="logo">
+    	</a>
+
+    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle Navigation"> 
+    		<span class="navbar-toggler-icon"></span> 
+    	</button>
+
+    	<div class="collapse navbar-collapse" id="basicExampleNav"> 
+    		<ul class="navbar-nav mr-auto smooth-scroll"> 
+    			<li class="nav-item"> 
+    				<a href="index.shtml" class="nav-link waves-effect waves-light">Главная</a> 
+    			</li>
+    			<li class="nav-item">
+    				<a href="#intro" class="nav-link btnn waves-effect waves-light" data-clipboard-text="+78126018807">+78126018807</a>
+    			</li>
+    			<li class="nav-item">
+    				<a href="#intro" class="nav-link btnn waves-effect waves-light" data-clipboard-text="mail@evolutioncompany.ru">mail@evolutioncompany.ru</a>
+    			</li>
+    			
+    		</ul>
+    		<a class="btn btn-outline-success my-2 my-sm-0" style="color: white;" href="form.shtml"  role="button">ПОДАТЬ ЗАЯВКУ</a>
+    	</div>
+    	
+    </div>
+</nav> 
 
     <div id="intro" class="view"> 
         <div class="mask rgba-black-strong"> 
