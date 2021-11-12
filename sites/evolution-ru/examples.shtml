@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Эволюция</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+
+<style type="text/css">
+html, body, header, #intro{
+
+    background: #000000;
+}
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar"> 
+    <div class="container">
+
+    	<a href="#" class="navbar-brand">
+    		<img src="img/logo.png" width="40" height="40" alt="logo">
+    	</a>
+
+    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle Navigation"> 
+    		<span class="navbar-toggler-icon"></span> 
+    	</button>
+
+    	<div class="collapse navbar-collapse" id="basicExampleNav"> 
+    		<ul class="navbar-nav mr-auto smooth-scroll"> 
+    			<li class="nav-item"> 
+    				<a href="index.shtml" class="nav-link waves-effect waves-light">Главная</a> 
+    			</li>
+    		</ul>
+    	</div>
+    </div>
+</nav> 
+
+</header>
+
+<div class="container-fluid pt-5 bblack"> 
+
+	    	    <div class="row text-center justify-content-center example fw300 cont tcwhite mt-5" >
+                    <p>ПРИМЕРЫ</p>
+                </div>
+
+	    	    <div class="row text-center justify-content-center" > 
+		    	    <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2 bgray">
+			    	    <img src="https://sun9-36.userapi.com/nYoKJDC9tTqmUNu7abXQT1zUe4YQeTX2DthAWQ/Hksa2qTb9Cg.jpg" alt="" class="w-100 my-2 pt-2">
+				        <a href="#intro" class="nav-link waves-effect waves-light btn btn-outline-success my-2 " data-toggle="modal" data-target="#exampleModalPool">Открыть</a>
+			    	    <div class="example cont fwbold tcwhite">
+			    	    	<p class="my-2">Бассейн</p>
+			    	    </div>
+			        </div> 
+		    	    <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2 bgray">
+			    	    <img src="img/8.jpg" alt="" class="w-100 my-2 pt-2">
+				        <a href="#intro" class="nav-link waves-effect waves-light btn btn-outline-success my-2 " data-toggle="modal" data-target="#exampleModalParnas">Открыть</a>
+			    	    <div class="example cont fwbold tcwhite">
+			    	    	<p class="my-2">Парнас</p>
+			    	    </div>
+
+			        </div> 
+		    	    <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2 bgray">
+			    	    <img src="https://sun9-9.userapi.com/wlmm27AgFixw70s9BjziWtKQLp4noUM-JpFOnQ/yPYPka8QGF0.jpg" alt="" class="w-100 my-2 pt-2">
+				        <a href="#intro" class="nav-link waves-effect waves-light btn btn-outline-success my-2 " data-toggle="modal" data-target="#exampleModalRedVillage">Открыть</a>
+			    	    <div class="example cont fwbold tcwhite">
+			    	    	<p class="my-2">Красное Село</p>
+			    	    </div>
+
+			        </div> 
+		    	    <div class="card col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 my-4 mx-2 bgray">
+			    	    <img src="https://sun9-4.userapi.com/VnYMwjHB_uSj5Q78y2Fx9VxzwW228vzE9HMD7g/gJiCm_FhS6w.jpg" alt="" class="w-100 my-2 pt-2">
+				        <a href="#intro" class="nav-link waves-effect waves-light btn btn-outline-success my-2 " data-toggle="modal" data-target="#exampleModalHangar">Открыть</a>
+			    	    <div class="example cont fwbold tcwhite">
+			    	    	<p class="my-2">Ангар</p>
+			    	    </div>
+			        </div>
+			        
+			     <!-- <div class="w-100"></div> разрыв -->
+				</div>
+</div>
+
+
+
+
+
+
+<!-- Окно Бассейн -->
+<div class="modal fade bd-example-modal-lg" id="exampleModalPool" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalPoolTitle">Бассейн</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="row text-center justify-content-center">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-67.userapi.com/60FpWosxWMQQ2-YoTha6f6L3w6B7v7N1ljLwWQ/ReEHqcJGB18.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-20.userapi.com/Vl843jnGOJoKx3QbUFbj4LAMyegRvxcpIteiWA/Skyu3Y9fQyw.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-56.userapi.com/CwAw_pBmLsN70tdEd0t9dRg4wgsNEy-LTtzcRA/ZvQnoVb10wE.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-46.userapi.com/I1czUtZph7wt3SyuF2wv3pSIYLVtTv-q2_5ITQ/GUByttBY2Vo.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-30.userapi.com/APlJh7_a3kmc38V4hI8FF2wgCZldXpcVl5-kOQ/66Zx4igDeFE.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-22.userapi.com/hNxUyNHtd1GtfI9G8LEF5_8j5Zt47EAZL9EGsQ/yvzP74XxmJY.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-52.userapi.com/6KENUpnP_GOSzrc_L3j3aby-jUV1FL7dwOncyA/eeetM9xra3Q.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-58.userapi.com/ScHwl-bmvR2l74Bi5O8boYknW7ofyNr1IgY86g/7ZAufkfgbc0.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-37.userapi.com/l83-RKc6IyNoBBLNJXvdV6QQG2cGJmFhwthypg/as-kQciDSpQ.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-15.userapi.com/htn0uqJDVUMAkM_HgcqFdPI9sGG0y9RAUfawpw/OSj-x7IJauM.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-75.userapi.com/YhaNMSV4V9cfCa1VQx5puiuEWbs3PVcGUhowrw/74d2YkmNvA8.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-14.userapi.com/b1_77cSlRc46Q4ym-Q7cqbZTranFnLvxjMtYDA/mvcDg5ssQIw.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-18.userapi.com/85s6IIkZ0XhVRdZURfyuP7C0TXD8O-QjXvFWdw/KAEKtr0WU-4.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-30.userapi.com/GUGPQbq17Sc85h1muj1xUVmWcbCV3VOvTjIevg/EMPC3ujnHPo.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-42.userapi.com/R4-ZGibcbU_T-kcJwOkC_BB4HXqa54noJETpQQ/Ovm3XnNZfik.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-5.userapi.com/lxR_wUmIYADj-TT9WhsHuVsuU0KRVTG5bIoAfg/_VN0wSjV9S8.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-3.userapi.com/9D7zXKw1EIfqEaVH5ScMGhiIJJ5MfrmCLfIIYQ/clhg5vH6KPU.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-39.userapi.com/v59gLVUhTVOmdaB3b5vqN1nw2Gwj93yk5_8rrA/xMgyvb1_N-I.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-12.userapi.com/o8LEWu0XgF48UFcl1YUvbWQl8k8Ze2JfazJyXA/jucbCxldAM0.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-25.userapi.com/_xEIkI860wFg4si9Z3ap8RSo7KaRNsREeTF4zg/ctUKbCitUXM.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-23.userapi.com/wBKl0MEN3EK6tx_i9xJGC_DE7R9w_tdpgcxoHQ/shugwj8NYAQ.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-19.userapi.com/7wphW6V_u6Ov-6jxc0jfM2wZtisNGL-UXRK00g/qdWlQpWCtg4.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-63.userapi.com/RoHujijgVctcgbUhkPtSN_uabZdSXAORbkJ0rQ/Jf0xzkhP-K0.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-70.userapi.com/kiGDUAAQdlrWx0jXFkvUHftijc3O6jN6u5U13Q/IIxf2RYrv7w.jpg" alt="" class="w-100 mt-2">
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Окно Парнас -->
+<div class="modal fade bd-example-modal-lg" id="exampleModalParnas" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalParnasTitle">Парнас</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          
+    <div class="row">
+           
+      <div class="col-md-4">
+          <img src="https://sun9-34.userapi.com/Gc7N1pdLqhnTQwP4ahIB81YCwzbLa8q6b4HPcg/0d6qedZUUjY.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-10.userapi.com/Np1cFg9GD5may_-c-u9D3HqFyDNg52ip2RoZ-w/BOxrMbGixc8.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-55.userapi.com/ucEPd-3HN7MJk1vEuPYJ0GgBKUxqMjFoj4VR-g/uL1LYoEj0Pg.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+
+    <div class="row">
+        
+      <div class="col-md-4">
+          <img src="https://sun9-7.userapi.com/Y6QJOnBCjJ9XUDiUIDrvOEOj0IwAksX9-y9M0A/qfGqEitDpVk.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-36.userapi.com/bYVUU65ApQoVe2HaFfghSM81EQfPY3W3irbK0A/n0vcBmZN4Z4.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-8.userapi.com/M0sBr2dceqYSkogpVZzhq3FZwC-Xa3Oa_tEWuQ/5M0wsayh-vc.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+    
+    <div class="row">
+        
+      <div class="col-md-4">
+          <img src="https://sun9-40.userapi.com/DzonjfJq6QVG1v_0E5VkOH7fB5z5kDltwVEpLA/K1NuHo6DCz0.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-5.userapi.com/wiZTFwtqXXRub-sWbgtwApEbke4sKQ2-ryLVgg/WXnLmMMI004.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-70.userapi.com/mpmnHPC7tXI3pj2W6xbHXHwe21UPln3FbHEmUQ/-yZnjCZZof8.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+    
+    <div class="row">
+        
+      <div class="col-md-4">
+          <img src="https://sun9-68.userapi.com/JOipgDtpDu8Qu8HtiPpiVXSbyNGb7Vh1VNKqaQ/ap5fiwm-C-U.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-33.userapi.com/pb5m_vmvv3pLPXYN9lElj49se-5hEl3K8c9dTA/AAq6JcF9pJc.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-64.userapi.com/3WZC1yT3YfbDHRqu3Vbzv69_vXlM_EsKaDWqWA/nLTCiTgLaFQ.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+    
+    <div class="row">
+        
+      <div class="col-md-4">
+          <img src="https://sun9-64.userapi.com/sZAMcu6KnEhTSFKbMGThrax2JEqw9Jw79oWutg/LZRAy1Cj7j8.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-36.userapi.com/SSgFKKEEKATNh41_VGV0EqGMmqC7dL9HfAaAVA/a6nX-l7Bkoo.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-73.userapi.com/gDv5MIpZoz0R7Vu3_spMfzyeRlx9krd4V9bfPg/et8X_WEBhEY.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+    
+    <div class="row">
+        
+      <div class="col-md-4">
+          <img src="https://sun9-65.userapi.com/FvsMuuTKl0pMmuDbRb03QUmGCAg77WEXAVzoDw/O9xmu1rsNts.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-24.userapi.com/dnPS_icMMzwKrxawOy0rejCFs1g4S13cid6SZQ/S8f5jkRSYXc.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-50.userapi.com/o-wD4rjhsdC0ctr1PKsZBDJfJ3cP4oSUAUK9CQ/kJGsxZg7JAo.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+    
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Окно Крансое Село -->
+<div class="modal fade bd-example-modal-lg" id="exampleModalRedVillage" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalRedVillageTitle">Красное Село</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          
+    <div class="row">
+           
+      <div class="col-md-4">
+          <img src="https://sun9-13.userapi.com/lDPLoHiQ04-CEy81vyGaGsYtmGo3KMdEhVHdPQ/m0p4ObRcOzU.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-21.userapi.com/9d4UgPXApSFAN7n49cg3AJHA_71MAvoKXzkUKw/lUPDtzvQmQc.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-58.userapi.com/Jz1KyIT3vyxjjo71Fj5oTQGqMQqxx53GT99lcw/GgKB9BudVHY.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+
+    <div class="row">
+        
+      <div class="col-md-4">
+          <img src="https://sun9-37.userapi.com/keST0ZWSarIlbw8-ie14eFQbGLV2yj6HDFpbVA/hPzV5wxg2dk.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-65.userapi.com/WEiEmzSQMhvnTfj56rAe4Rl5kQoLFRYUvq9VvQ/O3QjtvHbqnw.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-33.userapi.com/EVQJeO-ZRj8c6PsY3-obAJEO0UMvPAESa9mSJA/dFdwNC3ak8E.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+    
+    <div class="row">
+        
+      <div class="col-md-4">
+          <img src="https://sun9-3.userapi.com/qxk_ZThggeNolcrOk-cyzR5sXOK1X9diyGlEFg/trXuxxYqmhQ.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-53.userapi.com/_-jCrX5luUpLr51L-tdLcs86F4PwKwU-znwo_A/UcecJg4lkTM.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-68.userapi.com/3yhjn3sq7qk0fYKsHD3N3Y00eWB_xeZBbl-Z2A/OP5oQPvIdVY.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+    
+    <div class="row">
+        
+      <div class="col-md-4">
+          <img src="https://sun9-27.userapi.com/fKK3FzLHUwEKrkKElC8S9JQa78Jj6sgCBF5zcA/6RXQgAxx380.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-47.userapi.com/X7JVK7Qp9AtVp8MulU1CpuE_RAqFqLwJDa4e6g/QHBfjkcMfA0.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-59.userapi.com/UCQpbWOGLsaQchIf7Twqr1E0UjEJBg8FNRD97A/pf53uyOZGlY.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+    
+    <div class="row">
+        
+      <div class="col-md-4">
+          <img src="https://sun9-53.userapi.com/enB8riiVcFsyt2qXqtSygPs2zp801-NAJmRXCw/bqdywRl9NI4.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-33.userapi.com/jbTlYUDqDwKF1lovvI8g3PrPTRQUrt7joRtywA/lgxoR_XLaWU.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-22.userapi.com/BUpU9-0ltjwjvjuVNI6UVjlpezjOhTL3j0cb0Q/U_66MRFj5Rs.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+    
+    <div class="row">
+        
+      <div class="col-md-4">
+          <img src="https://sun9-39.userapi.com/X5_BeIBmddTnR0LaaPQ0dLuRJR7j7LyHlifmCQ/qvLMR3ybER4.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-11.userapi.com/MTG1sBKt2xmM2shLkVtknAg8Dhd4wbI8p1890Q/unh4HXp5TFQ.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-32.userapi.com/Qa7cX3Rl-LTj4i3OP8xwxwCUPp6G-fuWj1uonA/sBEmuCQoeMk.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+    
+    <div class="row">
+        
+      <div class="col-md-4">
+          <img src="https://sun9-14.userapi.com/WF-jiHOKZS5JthcEg10IbLP0LfmcHjnnJcHH3Q/DE0cvEpLFwQ.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-32.userapi.com/QmwdyuDsAF11ONuT5Rjthh4nNnJmjm9AJ6kX2A/Y5DJI-8aE38.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-36.userapi.com/S2NW1YbYfaYGs2WefdeZw6ZEVHiE0rT_Yp2WUw/LhyhbghFCXw.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+    
+    <div class="row">
+        
+      <div class="col-md-4">
+          <img src="https://sun9-5.userapi.com/wc1vYXiGdh4FHbl6i0NYGPsy7v3XhH-BVIPHEg/f2YaVXqEya0.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-65.userapi.com/inKXeU_5Q2wYnlwnH29_lCVzEkmwa-ceazmErw/HxBAJV-xTfs.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-29.userapi.com/Kx1bZ58nu_71RzQkMXYlg5jdPR0HyKq6m_hhrg/StsgwU3UTxs.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+    
+    
+    <div class="row">
+        
+      <div class="col-md-4">
+          <img src="https://sun9-70.userapi.com/ap7yNbh2ujE4bYAImo_9NRF4WDOBPUvWrqxIwg/Qu-GKxpmPQ0.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-61.userapi.com/1wSGxPMs7i_USWNyBIflTC6WdBqL4_Ybx05yCg/dCwweC79BTQ.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-4.userapi.com/i4-Sf0q0tLZvodE74qf3v0jdm9-voKHrVTepQg/Vdh-yZfBfnA.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+    
+    <div class="row">
+        
+      <div class="col-md-4">
+          <img src="https://sun9-13.userapi.com/5_R4Pt508raZIjyjz-QcFCL5oBWZjkhbj4uukg/r3PXhEiSIGU.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-65.userapi.com/uYDUn98CnjY-0zcmAbMkxOtFtgVGjRYu6aqI7w/TFj_MqFoQIg.jpg" alt="" class="w-100 mt-2">
+      </div>
+      <div class="col-md-4">
+          <img src="https://sun9-9.userapi.com/wlmm27AgFixw70s9BjziWtKQLp4noUM-JpFOnQ/yPYPka8QGF0.jpg" alt="" class="w-100 mt-2">
+      </div>
+      
+    </div>
+    
+    <div class="row justify-content-center">
+        
+      <div class="col-md-4">
+          <img src="https://sun9-12.userapi.com/-SnXPu5zka3qDimnxUv_pULbBu_kSySDReU57Q/UBXs6kM6moA.jpg" alt="" class="w-100 mt-2">
+      </div>
+
+      
+    </div>
+    
+    
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Окно Ангар -->
+<div class="modal fade bd-example-modal-lg" id="exampleModalHangar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+        
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalHangarTitle">Ангар</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      
+      <div class="modal-body">
+        <div class="row text-center justify-content-center">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-64.userapi.com/N1Ds7_DtlpXDW_Dg7yQtoZIiNSQbRX_0cuHRSw/vI1ut8gNnik.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-57.userapi.com/MMmK4tBAxRg-c1tjUAv_RQebIxvGHo_Dok5CvA/aZCzgQ2jZaE.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-56.userapi.com/VrpUIKQ4fiRT-iJldv4mGQnQsm-7K4DqKPgrUA/xxAFesegSB4.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-20.userapi.com/1H64wk-ECscc3taEVlK3pwVoS8ZLUS5cIUVVJQ/JojMRtd-w0Y.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-73.userapi.com/fRl5mKeTRkRS8iz5b98wtafVluZPs4gS6pNYkg/8cK8G9Qdq3M.jpg" alt="" class="w-100 mt-2">
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+            <img src="https://sun9-4.userapi.com/VnYMwjHB_uSj5Q78y2Fx9VxzwW228vzE9HMD7g/gJiCm_FhS6w.jpg" alt="" class="w-100 mt-2">
+          </div>
+        </div>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>

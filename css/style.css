@@ -7,7 +7,6 @@
 *{
 	padding: 0;
 	margin: 0;
-	font-family: 'Abhaya Libre';
 	color: white;
 }
 
@@ -21,7 +20,50 @@ html, body{
     background: url(../img/1.jpg) rgba(0, 0, 0, 0.7); /* Прописываем путь к картинке и задаем цвет и прозрачность */
     background-size: cover; 
     background-blend-mode: multiply;
-    height: 20%;
+    height: 86%;
+}
+
+.fw300{
+    font-weight: 300;
+}
+
+.cont{
+    letter-spacing: 1.5px; /* промежуток между букв */
+    line-height: 1.4;      /* промежуток между строк */
+    display: block;
+    margin: 0 auto 30px;
+    width: 100%;
+
+    min-width: 80px;
+    font-family: Roboto, Helvetica, Verdana, Roboto, sans-serif;
+
+}
+
+.cont1{
+    letter-spacing: 1.5px; /* промежуток между букв */
+    line-height: 1.4;      /* промежуток между строк */
+    display: block;
+    width: 100%;
+    max-width: 820px;
+    min-width: 80px;
+    font-family: Roboto, Helvetica, Verdana, Roboto, sans-serif;
+
+}
+
+.bblack{
+    background-color: gray;
+}
+
+.bgray{
+	background-color: #1a1a1a;
+}
+
+.tcwhite{
+	color: #fff;
+}
+
+.centt{
+    text-align: center;
 }
 
 .black-line {
@@ -30,8 +72,9 @@ html, body{
 	text-align: center; /* Текст по центру */
 	font-size: 14px;
 	color: #fff; /* Цвет текста */
-	padding: 20px 0; /* Отступ сверху и снизу */
+	padding: 10px 0; /* Отступ сверху и снизу */
 	list-style-type: none;
+	font-family: 'Abhaya Libre';
 }
 
 .black-line li a{
@@ -39,7 +82,9 @@ html, body{
 	align-self: center;
 	padding: 10px 15px;
 	transition: background .2s linear;
+	color: white;
 }
+
 .black-line li a:hover{
 	background: #563D7C;
 	border-radius: 3px;
